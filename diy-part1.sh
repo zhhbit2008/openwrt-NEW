@@ -1,4 +1,4 @@
-#!/bin/bash
+'#!/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -14,9 +14,9 @@
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo "src-git packages https://git.openwrt.org/feed/packages.git" >> feeds.conf.default
-echo "src-git luci https://git.openwrt.org/project/luci.git" >> feeds.conf.default
-echo "src-git routing https://git.openwrt.org/feed/routing.git" >> feeds.conf.default
-echo "src-git telephony https://git.openwrt.org/feed/telephony.git" >> feeds.conf.default
-echo "src-git kenzok8 https://github.com/kenzok8/openwrt-packages.git" >> feeds.conf.default
-echo "src-git small https://github.com/kenzok8/small.git" >> feeds.conf.default
+echo 'src-git packages https://git.openwrt.org/feed/packages.git' >> feeds.conf.default
+echo 'src-git luci https://git.openwrt.org/project/luci.git' >> feeds.conf.default
+echo 'src-git routing https://git.openwrt.org/feed/routing.git' >> feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >> feeds.conf.default
+echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages.git' >> feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small.git' >> feeds.conf.default
